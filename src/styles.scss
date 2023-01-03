@@ -1,3 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap'); 
 body {
-  background-color: antiquewhite;
+width: 100%;
+background-color: #E5E5E5;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Heebo', sans-serif;
+}
+p{
+  font-family: 'Heebo', sans-serif;
+}
+
+.menu--style{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  height: 57px;
+  margin-top: 27px;
+  &:hover{
+    transition: all 500ms;
+    font-size:2em;
+    color:darkgray;
+  }
+  }
+  .menulist:last-child{
+    padding-right: 52px;
+  }
+
+  h1{
+    color:#21243D;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+   }
+   p{
+     font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #21243D;
+   }
+.downloadButoon{
+  width: 208px;
+  height: 47px;
+  background: #FF6464;
+  border-radius: 2px;
+  border: none;
+  font-family: 'Heebo', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+
+}
+@media (min-width: 856px){
+.menu2{
+ display: none;
+}
+.menu, .john{
+ background-color: white;
+}
+.downloadButoon{
+  margin-top: 47px;
+  margin-bottom: 71px;
+}
+
+.john__text--paragraph{
+  margin-top: 40px ;
+}
+.john__text{
+  margin-top: 158px;
+  margin-left: 148px;
+ 
+}
+.john__photo{
+  margin-top: 140px;
+  
+}
+.john__photo img{ 
+  border-radius: 60%;
+}
+
+.john2{
+  display: none;
+}
+
+}
+
+@media (max-width: 855px){
+  .menu{
+    display: none;
+  }
+  .menulogo{
+    margin-top: 20px;
+    padding-right: 8px;
+  
+  }
+.john{
+  display: none;
+}
+.john__photo img{
+  border-radius: 60%;
+}
 }
